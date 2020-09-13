@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Load Dem</title>
+     <!-- Load the Google Maps API. -->
+     <!-- Load compiled Earth Engine JavaScript client library. -->
+    <style>
+        body {
+            margin:0;
+            padding:0;
+        }
+        #map {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #343333;
+        }
+        h3 {
+            background-color: #565656;
+            color: transparent;
+            text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+            font-size: 4em;
+            text-transform: uppercase;
+            margin: 0;
+            -webkit-background-clip: text;
+            -moz-background-clip: text;
+            background-clip: text;
+        }
+    </style>
+</head>
+<body>
+    <div class="map" id="map">
+        <h3 class="text">Google Earth Engine</h3>
+    </div>
+
+     <!-- Load our script. -->
+    <script src="/script.js">
+    </script>
+</body>
+</html>
